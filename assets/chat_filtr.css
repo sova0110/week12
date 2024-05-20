@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(222, 222, 239);
+    
+}
+
+.chat_input{
+    display: flex;
+    flex-direction: column;
+    width:45vw;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 40px;
+    background-color: rgb(217, 241, 233);
+    
+    
+}
+.inputName{
+    width: 20vw;
+    border:1px dotted darkblue;
+}
+.inputPhoto{
+    width: 20vw;
+    border:1px dotted darkblue;
+}
+.inputComment{
+    width: 20vw;
+    height: 20vh;
+    border:1px dotted darkblue;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.add_comment{
+    border:2px solid gold;
+    background-color: darkblue;
+    color:gold;
+}
+h2{
+    color: darkblue;
+    font-size: 700;
+    text-align: center;
+}
+.chat_show{
+    margin-top: 40px;
+    background-color: rgb(197, 247, 247);
+    display: flex;
+    flex-direction: column;
+    width:45vw;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 40px;
+}
+body{
+    background-color: rgb(222, 222, 239);
+}

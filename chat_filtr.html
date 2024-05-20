@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/chat_filtr.css" />
+    <link rel="stylesheet" href="assets/skeleton.css" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <div class="chat_input">
+            <h2>Оставте свой комментарий:</h2>
+            <input class="inputName" id="inputNameId" placeholder="Имя">
+            <input class="inputPhoto" id="inputPhotoId" placeholder="ававтар">
+            <input class="inputComment" id="inputCommentId" placeholder="поле для комментария">
+            <button class="add_comment" type="button" onclick="createChat()">Добавить</button>
+        </div>
+        <div class="chat_show" id="chat_showID">
+            <h2>ЧАТ</h2>
+        </div>
+
+    </section>
+    <script src="./chat_filtr.js"></script>  
+</body>
+</html>
